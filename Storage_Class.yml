@@ -15,7 +15,6 @@ spec:
       release: "stable"
     matchExpressions:
       - {key: environment, operator: In, values: [dev]}
-------------
 
 apiVersion: v1
 kind: Pod
